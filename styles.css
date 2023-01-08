@@ -25,7 +25,7 @@ a {
 
 .banner {
     display: flex;
-    padding: 10px 120px;
+    padding: 10px 180px;
     justify-content: space-between;
 }
 
@@ -44,7 +44,7 @@ a {
 .header-content {
     display: flex;
     max-width: 1200px;
-    padding: 120px 120px;
+    padding: 120px 180px;
     gap: 80px;
 }
 
@@ -65,7 +65,7 @@ a {
     border: none;
     border-radius: 10px;
     font-size: 18px;
-    color: #e5e7eb;
+    color: white;
     font-weight: 700;
     max-width: max-content;
 }
@@ -131,3 +131,29 @@ img {
     font-weight: bold;
 }
 
+.bottom-banner {
+    display: flex;
+    background-color: #3882f6;
+    margin: 60px 200px;
+    padding: 40px 80px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.bottom-banner-text > * {
+    color: white;
+    font-size: 18px;
+}
+
+.bottom-button {
+    border: 2px solid white;
+    color: white;
+}
+
+.footer {
+    padding: 24px;
+    color: #f9faf8;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 100;
+}
